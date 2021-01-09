@@ -1246,7 +1246,7 @@ form textarea {
         width: 16.6667%;
         float: left; } }
     .forecast-container .forecast.today {
-      width: 420px; }
+      width: 520px; }
       .forecast-container .forecast.today .forecast-header {
         *zoom: 1; }
         .forecast-container .forecast.today .forecast-header:after {
@@ -1674,3 +1674,27 @@ form textarea {
     .site-footer .social-links a:hover {
       background: #009ad8;
       color: white; }
+
+
+.forecast-content span img{
+  width: 30px;
+  color: #8E8F94;
+}
+
+.forecast-icon{
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  background: #bebebe;
+}
+
+.nottoday .forecast-icon{
+  width: 48px;
+  height: 48px !important;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.nottoday .forecast-icon img{
+  width: 100%;
+  height: 100%;
+}
